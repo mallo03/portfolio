@@ -19,6 +19,8 @@ const config: Config = {
         'taupe': '#B4A79E',
         'tan': '#BDA18C',
         'coffee': '#3F352D',
+        'lightgray': '#282828',
+        'gray': '#141414'
       },
     },
   },

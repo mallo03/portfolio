@@ -15,7 +15,7 @@ export default function Navbar() {
   const [miniNavVisible, setMiniNavVisible] = useState(false);
 
   return (
-    <nav className="h-16 fixed top-0 bg-white w-screen flex justify-between px-10 items-center dark:bg-black dark:text-white z-30">
+    <nav className="h-16 fixed top-0 bg-white w-screen flex justify-between px-10 items-center dark:bg-lightgray dark:text-white z-30">
       <h1 className="text-3xl font-sans font-extrabold text-black/70 dark:text-white">
         <a href="#">michael g</a>
       </h1>
@@ -83,22 +83,22 @@ export default function Navbar() {
 
       <div
         id="miniNav"
-        className={`fixed z-40 top-16 md:hidden justify-center bg-white w-screen grid grid-rows-3 right-0 ${
+        className={`fixed z-40 top-16 md:hidden justify-center bg-white w-screen grid grid-rows-3 right-0 dark:text- dark:bg-lightgray  ${
           miniNavVisible ? "block" : "hidden"
         }`}
       >
-        <div className="row-span-1  text-center">
+        <div className="row-span-1 h-16 flex items-center justify-center hover:text-tan dark:hover:text-tan">
           <a href="">About</a>
         </div>
 
-        <div className="row-span-1">
+        <div className="row-span-1 h-16 flex items-center hover:text-tan dark:hover:text-tan">
           <a href="">Resume</a>
         </div>
 
-        <div className="row-span-1">
+        <div className="row-span-1 h-16 flex items-center hover:text-tan dark:hover:text-tan">
           <a href="">Contact</a>
         </div>
-        <button id="toggleDark" onClick={handleDarkModeToggle} className="flex justify-center">
+        <button id="toggleDark" onClick={handleDarkModeToggle} className="flex justify-center items-center h-16">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

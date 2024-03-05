@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section>
-      <div className="flex flex-row justify-evenly h-screen bg-cover bg-center bg-pearl dark:bg-coffee z-10">
+      <div className="flex flex-row justify-evenly h-screen bg-cover bg-center bg-pearl dark:bg-black z-10">
         <div className="w-200 h-200 pt-16">
           <Image
             src="/images/pose1.jpg"
