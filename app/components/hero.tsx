@@ -4,21 +4,23 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section>
-      <div className="flex flex-row justify-evenly h-screen bg-cover bg-center bg-pearl dark:bg-black z-10">
-        <div className="w-200 h-200 pt-16">
+      <div className="grid items-center h-screen bg-cover bg-center bg-pearl dark:bg-gray z-10  grid-cols-1 md:grid-cols-5 dark:text-white/70 text-black/70">
+        <div className="flex md:col-span-2 justify-center mx-10  pt-20 md:pt-0">
           <Image
-            src="/images/pose1.jpg"
+            src="/images/mountainbatur.jpg"
             alt="Mountain Batur"
-            width={200}
-            height={200}
-            layout="fixed"
+            width={400}
+            height={700}
+            layout="fixed" 
+            className="border-2 border-black/70 dark:border-white/70"
           />
         </div>
-        <div className="ml-8 mt-48">
-          <h1 className="text-white mb-4 text-6xl font-semibold">Hi there!</h1>
-          <p className="text-white">
-            Currently a third year student studying Software Engineering at the
-            University of New South Wales.
+        <div className="md:col-span-3 mx-10">
+          <p className="pb-4 md:text-4xl text-xs">Hi there! I am</p>
+          <h1 className=" mb-4 md:text-6xl font-semibold">Michael Girikallo</h1>
+          <p className="md:text-xl text-xs">
+           Currently a 3<sup>rd</sup> year student studying Software Engineering at the
+            University of New South Wales
           </p>
         </div>
       </div>
