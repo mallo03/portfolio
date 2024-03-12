@@ -14,7 +14,7 @@ export default function Navbar() {
   const [miniNavVisible, setMiniNavVisible] = useState(false);
 
   return (
-    <nav className="h-16 fixed top-0 bg-white w-screen flex justify-between px-10 items-center dark:bg-lightgray/80 dark:text-white z-30">
+    <nav className="h-16 fixed top-0 bg-white w-screen flex justify-between px-10 items-center dark:bg-lightgray dark:text-white z-30">
       <h1 className="text-3xl font-sans font-extrabold text-black/70 dark:text-white">
         <p className="pb-2">
           <a href="#">mg</a>
