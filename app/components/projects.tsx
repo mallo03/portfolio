@@ -30,7 +30,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="grid md:grid-cols-3">
+    <div className="grid md:grid-cols-3" id="projects">
       {projects.map((projects, i) => (
         <div key={i} className="project">
           <h3>{projects.name}</h3>

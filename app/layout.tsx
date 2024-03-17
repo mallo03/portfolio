@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head><link rel="icon" type="image/x-icon" href="/images/mgicon.png"/></head>
+      <head><title>Michael Girikallo</title><link rel="icon" type="image/x-icon" href="/images/mgicon.png"/></head>
       <body className={inter.className}>{children}</body>
     </html>
   )

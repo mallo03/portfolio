@@ -21,13 +21,13 @@ export default function Navbar() {
         </p>
       </h1>
       <ul className="hidden md:flex justify-between gap-20 font-san">
-        <a className="hover:text-tan dark:hover:text-tan" href="#">
+        <a className="hover:text-tan dark:hover:text-tan" href="#projects">
           Projects
         </a>
-        <a className="hover:text-tan dark:hover:text-tan" href="#">
+        <a className="hover:text-tan dark:hover:text-tan" href="#contact">
           Contact
         </a>
-        <a className="hover:text-tan dark:hover:text-tan" href="#">
+        <a className="hover:text-tan dark:hover:text-tan" href="#contact">
           Resume
         </a>
         <button id="toggleDark" onClick={handleDarkModeToggle}>
@@ -89,15 +89,15 @@ export default function Navbar() {
         }`}
       >
         <div className="row-span-1 h-16 flex items-center justify-center hover:text-tan dark:hover:text-tan">
-          <a href="">About</a>
+          <a href="#projects">Projects</a>
         </div>
 
         <div className="row-span-1 h-16 flex items-center hover:text-tan dark:hover:text-tan">
-          <a href="">Resume</a>
+          <a href="#contact">Contact</a>
         </div>
 
         <div className="row-span-1 h-16 flex items-center hover:text-tan dark:hover:text-tan">
-          <a href="">Contact</a>
+          <a href="#contact">Resume</a>
         </div>
         <button
           id="toggleDark"

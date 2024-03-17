@@ -17,7 +17,7 @@ const config: Config = {
       colors: {
         'pearl': '#e4e5f1',
         'taupe': '#B4A79E',
-        'tan': '#BDA18C',
+        'tan': '#808080',
         'coffee': '#3F352D',
         'lightgray': '#282828',
         'gray': '#141414'

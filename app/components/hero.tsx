@@ -39,9 +39,9 @@ export default function Hero() {
             ))}
           </div>
         </div>
-        <div className="md:col-span-3 mx-10">
-          <p className="pb-4 sm:text-4xl text-xs">Hi there! I am</p>
-          <h1 className=" mb-4 sm:text-6xl font-semibold">Michael Girikallo</h1>
+        <div className="md:col-span-3 mx-10 sm:pb-0 pb-9">
+          <p className="pb-4 sm:text-4xl text-s">Hi there! I am</p>
+          <h1 className=" mb-4 sm:text-6xl text-4xl font-semibold">Michael Girikallo</h1>
           <p className="sm:text-xl text-xs">
            Currently a 3<sup>rd</sup> year student studying Software Engineering at the
             University of New South Wales
