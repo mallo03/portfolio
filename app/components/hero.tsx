@@ -7,7 +7,6 @@ const images = [
   '/images/me.jpg',
   '/images/sunsetkuta.jpg',
   '/images/redbridge.jpg',
-  '/images/pose1.jpg',
   '/images/temple.jpg',
   '/images/mountain.jpg',
 ];
@@ -24,7 +23,7 @@ export default function Hero() {
   }, []);
   return (
     <section>
-      <div className="grid items-center h-screen bg-cover bg-center bg-pearl dark:bg-gray z-10  grid-cols-1 md:grid-cols-5 dark:text-white/70 text-black/70">
+      <div className="grid items-center h-screen bg-cover bg-center bg-pearl dark:bg-gray z-10 grid-cols-1 md:grid-cols-5 dark:text-white/70 text-black/70">
         <div className="flex md:col-span-2 justify-center mx-10 pt-20 md:pt-0">
         <div className="relative w-full h-96 md:h-52 overflow-hidden rounded">
             {images.map((imageUrl, index) => (
@@ -41,10 +40,10 @@ export default function Hero() {
         </div>
         <div className="md:col-span-3 mx-10 sm:pb-0 pb-9">
           <p className="pb-4 sm:text-4xl text-s">Hi there! I am</p>
-          <h1 className=" mb-4 sm:text-6xl text-4xl font-semibold">Michael Girikallo</h1>
+          <h1 className="mb-4 sm:text-6xl text-4xl font-semibold">Michael Girikallo</h1>
           <p className="sm:text-xl text-xs">
-           Currently a 3<sup>rd</sup> year student studying Software Engineering at the
-            University of New South Wales
+           currently a 3<sup>rd</sup> year student studying Software Engineering at the
+            University of New South Wales.
           </p>
         </div>
       </div>
